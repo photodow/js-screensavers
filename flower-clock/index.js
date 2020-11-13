@@ -241,4 +241,4 @@ class FlowerClock { // dependency on d3
 
 const flowerClock = new FlowerClock();
 
-// setInterval(() => flowerClock.updateChart(), 1000);
+setInterval(() => flowerClock.updateChart(), 1000);
