@@ -17,8 +17,7 @@ body {
 }
 
 .flower-clock svg {
-    height: 100vh;
-    max-height: 500px;
+    height: 90vh;
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     -webkit-transition-property: -webkit-transform;
