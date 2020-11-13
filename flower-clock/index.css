@@ -1,0 +1,66 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2F3EB;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.flower-clock svg {
+    height: 100vh;
+    max-height: 500px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.flower-clock svg.enter {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.pins {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
+.pin-head {
+    fill: #323232;
+}
+
+.pin-line {
+    stroke: #323232;
+}
+
+.petals {
+    isolation: isolate;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
+.petal {
+    mix-blend-mode: multiply;
+}
+
+.petal:nth-child(2) {
+    fill: #FF5C49;
+}
+
+.petal:nth-child(1) {
+    fill: #00B6CB;
+}
