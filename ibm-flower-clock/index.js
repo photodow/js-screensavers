@@ -3,7 +3,7 @@ class FlowerClock { // dependency on d3
         // options
         this.options = {
             selector: '.flower-clock',
-            radius: 250, // radius = max
+            radius: Math.min(window.innerWidth, window.innerHeight) * .4, // radius = max
             pinHeadRadius: 3, // pinHeadRadius * 2 = min
             duration: 1250,
             padding: 10,
